@@ -1,0 +1,37 @@
+.product-image {
+    height: 200px; /* Set a consistent height for all images */
+    object-fit: cover; /* Ensures images fill the space without distorting aspect ratio */
+    width: 100%; /* Ensures images take full width of the card */
+  }
+  
+  /* -------- */
+  .product-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .thumbnail-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border 0.2s;
+  }
+  
+  .thumbnail-image:hover {
+    border-color: #007bff;
+  }
+  

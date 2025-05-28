@@ -1,0 +1,29 @@
+
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./images/c1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+
+
+}
+
+.register-box {
+  background:transparent ;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+}
